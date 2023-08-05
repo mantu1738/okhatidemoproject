@@ -45,7 +45,7 @@ function App() {
           }
         />
         <Route
-          path={RoutesPath.Login}
+          path={RoutesPath.Profile}
           element={
             <PrivateRoute>
               <Profile />
