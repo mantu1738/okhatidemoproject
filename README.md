@@ -1,46 +1,43 @@
-# Getting Started with Create React App
+# Awesome authentication project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The project is completed with the given requirements and deployed in netlify.
 
-## Available Scripts
+## Guide to start the project
 
-In the project directory, you can run:
+- Clone the repository from [GitHub](https://github.com/mantu1738/okhatidemoproject.git)
+- Install the dependencies using `npm install`
+- Run the application using `npm start`
+- Open the application in the browser navigating to `http://localhost:3000`
 
-### `npm start`
+## Routes
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Register (/)
+- Login (/login)
+- Profile (/profile) (Authenticated Page)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Features
 
-### `npm test`
+- Form to register new user with validation and error handling and proper routing with snackbars and redirects.
+- Form to login with validation and error handling and proper routing with snackbars and redirects.
+- Profile page with user details and a logout button.
+- Small UI changes made for better user experience such as loading.
+- Made the project responsive.
+- Used TypeScript for the project.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Local Environment Requirements
 
-### `npm run build`
+- Node.js
+- npm
+- git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Frameworks/Library Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [React](https://reactjs.org/)
+- [Material UI 5](https://mui.com/)
+- [React Router](https://reactrouter.com/)
+- [Redux](https://redux.js.org/)
+- [React-Redux](https://react-redux.js.org/)
+- [React-Router-Dom](https://react-router-dom.js.org/)
+- [Redux-Toolkit](https://redux-toolkit.js.org/)
+- [React-hook-form](https://react-hook-form.com/)
+- [notistack](https://notistack.com/examples)
